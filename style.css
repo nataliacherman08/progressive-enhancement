@@ -1,5 +1,15 @@
+@font-face 
+{
+    font-family: "Abhaya Libre";
+    src: url("fonts/AbhayaLibre-Regular-webfont.eot") format("eot"),
+         url("fonts/AbhayaLibre-Regular-webfont.svg") format("svg"),
+         url("fonts/AbhayaLibre-Regular-webfont.ttf") format("ttf"),
+         url("fonts/AbhayaLibre-Regular-webfont.woff") format("woff");
+}
+
 p
 {
     color: #2f487f;
     text-align: justify;
+    font-family: 'Abhaya Libre', 'Times New Roman', Times, serif;
 }
