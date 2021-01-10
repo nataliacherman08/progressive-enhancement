@@ -9,7 +9,37 @@
 
 p
 {
-    color: #2f487f;
+    color: #23225b;
+    font-size: 1.2em;
     text-align: justify;
     font-family: 'Abhaya Libre', 'Times New Roman', Times, serif;
+}
+
+a
+{
+    color: #000;
+    font-size: 1em;
+    font-family: 'Lucida Regular', Tahoma, Verdana, sans-serif;
+    font-style: normal;
+    text-decoration: none;
+}
+
+a:visited
+{
+    color: #7268ff;
+    font-size: 1em;
+    font-family: 'Lucida Regular', Tahoma, Verdana, sans-serif;
+    font-style: normal;
+    text-decoration: none;
+
+}
+
+a:hover
+{
+    color: #c233fa;
+    font-size: 1em;
+    font-family: 'Lucida Regular', Tahoma, Verdana, sans-serif;
+    font-style: normal;
+    text-decoration: none;
+
 }
