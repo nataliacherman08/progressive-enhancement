@@ -31,7 +31,8 @@ body
     background-size: cover;
     max-width: 90%;
     margin: auto;
-    font-family: 'Open Sans', Verdana, Tahoma, sans-serif
+    font-family: 'Open Sans', Verdana, Tahoma, sans-serif;
+    text-align: justify;
 }
 
 h1
@@ -45,7 +46,29 @@ h1
 
 h2
 {
+    opacity: 0.8;
+}
 
+p
+{
+    color: #23225b;
+    font-size: 1.2em;
+    text-align: justify;
+    font-family: 'Abhaya Libre', 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+}
+
+ul
+{
+    font-family: 'Abhaya Libre', 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    
+}
+
+hr
+{
+    opacity: 0.2;
+    margin: 40px 0 40px 0;
 }
 
 /**FLOAT**/
@@ -56,22 +79,23 @@ h2
 ul li:nth-child(1)
 {
     background: url("https://raw.githubusercontent.com/becodeorg/CRL-Woods-4.27/main/Assets/bien.png?token=ASLFBXNSLPCKYHVARBA2T4DAATCPQ") no-repeat;
-    padding-right: 900px;
+
 }
+
 
 blockquote
 {
     width: 50%;
     margin: auto;
-    font-size: 106%;
+    font-size: 1.6em;
     font-style: italic;
-    overflow-wrap: break-word;
+    /**overflow-wrap: break-word;**/
     border-left: 3px solid #B22222;
     padding: 80px 30px 80px 30px;
     background-color: #f7f7f780;
 }
 
-
+/**Span**/
 .villagers
 {
     border-left: 4px solid #ec3324;
@@ -94,16 +118,6 @@ blockquote
     color: #ec3324;
 }
 
-p
-{
-    color: #23225b;
-    font-size: 1.2em;
-    text-align: justify;
-    font-family: 'Abhaya Libre', 'Times New Roman', Times, serif;
-    letter-spacing: 2px;
-}
-
-
 /**Table**/
 caption
 {
@@ -123,6 +137,7 @@ table, th, td
     border-collapse: collapse;
     width: 300px;
     text-align: center;
+    font-family: 'Abhaya Libre', 'Times New Roman'
 }
 
 table em
