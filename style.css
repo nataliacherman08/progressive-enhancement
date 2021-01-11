@@ -1,10 +1,70 @@
 @font-face 
 {
+    font-family: "Open Sans";
+    src: url("fonts/opensans/OpenSans-ExtraBoldItalic.ttf") format("ttf"),
+         url("fonts/opensans/OpenSans-Italic.ttf") format("ttf"),
+         url("fonts/opensans/OpenSans-Light.ttf") format("ttf"),
+         url("fonts/opensans/OpenSans-LightItalic.ttf") format("tff"),
+         url("fonts/opensans/OpenSans-Regular.ttf") format("ttf"),
+         url("fonts/opensans/OpenSans-SemiBold.ttf") format("ttf"),
+         url("fonts/opensans/OpenSans-SemiBoldItalic.ttf") format("ttf"),
+         url("fonts/opensans/OpenSans-Bold.ttf") format("tff"),
+         url("fonts/opensans/OpenSans-BoldItalic.ttf") format("tff"),
+         url("fonts/opensans/OpenSans-ExtraBold.ttf") format("tff");
+}
+@font-face 
+{
     font-family: "Abhaya Libre";
-    src: url("fonts/AbhayaLibre-Regular-webfont.eot") format("eot"),
-         url("fonts/AbhayaLibre-Regular-webfont.svg") format("svg"),
-         url("fonts/AbhayaLibre-Regular-webfont.ttf") format("ttf"),
-         url("fonts/AbhayaLibre-Regular-webfont.woff") format("woff");
+    src: url("fonts/abhaya/AbhayaLibre-Regular-webfont.eot") format("eot"),
+         url("fonts/abhaya/AbhayaLibre-Regular-webfont.svg") format("svg"),
+         url("fonts/abhaya/AbhayaLibre-Regular-webfont.ttf") format("ttf"),
+         url("fonts/abhaya/AbhayaLibre-Regular-webfont.woff") format("woff");
+}
+
+body
+{
+    background: -webkit-linear-gradient(66deg, rgb(176, 238, 254), rgb(255, 255, 255));
+    background: URL("http://www.pngmart.com/files/4/Japanese-Transparent-Background.png") no-repeat fixed right bottom;
+    background-size: cover;
+    max-width: 90%;
+    margin: auto;
+    font-family: 'Open Sans', Verdana, Tahoma, sans-serif
+}
+
+
+blockquote
+{
+    width: 50%;
+    margin: auto;
+    font-size: 106%;
+    font-style: italic;
+    overflow-wrap: break-word;
+    border-left: 3px solid #B22222;
+    padding: 80px 30px 80px 30px;
+    background-color: rgb(247, 247, 247, 0.5);
+}
+
+
+.villagers
+{
+    border-left: 4px solid #ec3324;
+}
+
+.farmer
+{
+    border-left: 4px solid #577889;
+}
+
+.good
+{
+    text-transform: capitalize;
+    color: #5a9b75;
+}
+
+.bad
+{
+    text-transform: capitalize;
+    color: red;
 }
 
 p
