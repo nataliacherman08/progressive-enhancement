@@ -21,9 +21,12 @@
          url("fonts/abhaya/AbhayaLibre-Regular-webfont.woff") format("woff");
 }
 
+
+
 body
 {
-    background: -webkit-linear-gradient(66deg, rgb(176, 238, 254), rgb(255, 255, 255));
+    background-color: #fff;
+    /**background: -webkit-linear-gradient(66deg, rgb(255, 244, 223), rgb(255, 255, 255));**/
     background: URL("http://www.pngmart.com/files/4/Japanese-Transparent-Background.png") no-repeat fixed right bottom;
     background-size: cover;
     max-width: 90%;
@@ -31,6 +34,30 @@ body
     font-family: 'Open Sans', Verdana, Tahoma, sans-serif
 }
 
+h1
+{
+    color: #000;
+    font-size: 90px;
+    text-align: center;
+    opacity: 0.8;
+    padding: 60px 150px 0 150px;
+}
+
+h2
+{
+
+}
+
+/**FLOAT**/
+
+
+
+/**List**/
+ul li:nth-child(1)
+{
+    background: url("https://raw.githubusercontent.com/becodeorg/CRL-Woods-4.27/main/Assets/bien.png?token=ASLFBXNSLPCKYHVARBA2T4DAATCPQ") no-repeat;
+    padding-right: 900px;
+}
 
 blockquote
 {
@@ -41,7 +68,7 @@ blockquote
     overflow-wrap: break-word;
     border-left: 3px solid #B22222;
     padding: 80px 30px 80px 30px;
-    background-color: rgb(247, 247, 247, 0.5);
+    background-color: #f7f7f780;
 }
 
 
@@ -64,7 +91,7 @@ blockquote
 .bad
 {
     text-transform: capitalize;
-    color: red;
+    color: #ec3324;
 }
 
 p
@@ -73,22 +100,67 @@ p
     font-size: 1.2em;
     text-align: justify;
     font-family: 'Abhaya Libre', 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
 }
 
+
+/**Table**/
+caption
+{
+    border: 1px solid #000;
+    border-bottom: none;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 1px;
+    padding-bottom: 5px;
+    padding: 10px 5px 10px 5px;
+}
+
+table, th, td 
+{
+    table-layout: fixed;
+    border: 1px solid #000;
+    border-collapse: collapse;
+    width: 300px;
+    text-align: center;
+}
+
+table em
+{
+    font-style: normal;
+    font-weight: bold;
+    color: #23225b;
+}
+
+td
+{
+    height: 50px;
+}
+
+tbody td:nth-child(2n-1)
+{
+    background-color: rgb(247, 247, 247, 0.5);
+}
+  
+tbody td:nth-child(2n)
+{
+    background-color: hsl(0, 0%, 100%, 0.5);
+}
+
+
+/**Link**/
 a
 {
     color: #000;
     font-size: 1em;
-    font-family: 'Lucida Regular', Tahoma, Verdana, sans-serif;
     font-style: normal;
     text-decoration: none;
 }
 
 a:visited
 {
-    color: #7268ff;
+    color: #B22222;
     font-size: 1em;
-    font-family: 'Lucida Regular', Tahoma, Verdana, sans-serif;
     font-style: normal;
     text-decoration: none;
 
@@ -96,9 +168,8 @@ a:visited
 
 a:hover
 {
-    color: #c233fa;
+    color: #23225b;
     font-size: 1em;
-    font-family: 'Lucida Regular', Tahoma, Verdana, sans-serif;
     font-style: normal;
     text-decoration: none;
 
