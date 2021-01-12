@@ -1,0 +1,247 @@
+@font-face 
+{
+    font-family: "Source Sans Pro";
+    src: url("font/SourceSansPro-Black.ttf") format("ttf"),
+         url("font/SourceSansPro-BlackItalic.ttf") format("ttf"),
+         url("font/SourceSansPro-Bold.ttf") format("ttf"),
+         url("font/SourceSansPro-BoldItalic.ttf") format("tff"),
+         url("font/SourceSansPro-ExtraLight.ttf") format("ttf"),
+         url("fon/SourceSansPro-ExtraLightItalic.ttf") format("ttf"),
+         url("font/SourceSansPro-Italic.ttf") format("ttf"),
+         url("font/SourceSansPro-Light.ttf") format("tff"),
+         url("font/SourceSansPro-LightItalic.ttf") format("tff"),
+         url("font/SourceSansPro-Regular.ttf") format("tff"),
+         url("font/SourceSansPro-SemiBold.ttf") format("tff"),
+         url("font/SourceSansPro-SemiBoldItalic.ttf") format("tff");
+}
+
+body
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #333333;
+    color: #fff;
+    font-family: 'Source Sans Pro', Verdana, Tahoma, sans-serif;
+}
+
+/**MENU NAVIGATION**/
+header
+{   
+    display: flex;
+
+    font-size: 0.9em;
+}
+
+li
+{
+    display: inline;
+    list-style: none;
+}
+
+a 
+{
+    padding: 5px 0 5px 30px;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover 
+{
+    background-color: #EEEEEE;
+    color: black;
+}
+
+
+
+/**BANNIERE**/
+#banniere
+{
+    background-color: #0093c8;
+    display: flex;
+    flex-direction: row;
+}
+
+
+/**BODY**/
+#body
+{   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #0093c8;
+    padding-bottom: 60px;
+}
+
+#body p
+{
+    color: #E4E4E4;
+}
+
+#body div
+{
+    padding-top: 30px;
+    width: 40%;
+}
+
+/**SLOGAN**/
+#slogan1
+{
+    background-color: #FFF;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #000;
+    text-align: center;
+    font-size: 1.8em;
+    letter-spacing: -2px;
+}
+
+#slogan2
+{
+    background-color: #FFF;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #747171;
+    text-align: center;
+    font-size: 1.5em;
+    letter-spacing: -1px;
+}
+
+
+/**PARTENAIRES**/
+#partenariat
+{
+    background-color: #EEE;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/**BUTTONS**/
+#buttons
+{   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    height: 300px;
+    width: 100%;
+}
+
+/**REST API**/
+.restapi 
+{
+    border: 2px solid #fff;
+    line-height: 2.5;
+    width: 240px;
+    padding: 15px 32px;
+    font-size: 1.5em;
+    text-align: center;
+    color: #fff;
+    border-radius: 8px;
+    background-color: #18608d;
+    cursor: pointer;
+}
+
+.restapi:hover 
+{
+    background-color: #EEEEEE;
+    color: black;
+}
+
+/**Docs**/
+.docs 
+{
+    border: 2px solid #fff;
+    line-height: 2.5;
+    width: 240px;
+    padding: 15px 32px;
+    font-size: 1.5em;
+    text-align: center;
+    color: #fff;
+    border-radius: 8px;
+    background-color: #18608d;
+    cursor: pointer;
+}
+
+.docs:hover 
+{
+    background-color: #EEEEEE;
+    color: black;
+}
+
+/**Start Building**/
+.startbuildingnow
+{
+    border: 1px solid #fff;
+    line-height: 2.5;
+    padding: 15px 32px;
+    font-size: 1.5em;
+    text-align: center;
+    color: #fff;
+    border-radius: 8px;
+    background-color: #e99002;
+    cursor: pointer;
+}
+
+.startbuildingnow:hover 
+{
+    background-color: #EEEEEE;
+    color: black;
+}
+
+.startbuilding 
+{
+    border: 2px solid #fff;
+    line-height: 2.5;
+    width: 240px;
+    padding: 15px 32px;
+    font-size: 1.5em;
+    text-align: center;
+    color: #fff;
+    border-radius: 8px;
+    background-color: #e99002;
+    cursor: pointer;
+}
+
+.startbuilding:hover 
+{
+    background-color: #EEEEEE;
+    color: black;
+}
+
+
+/**FOOTER**/
+#bottom
+{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+footer nav
+{
+    display: inline;
+    font-size: 0.9em;
+}
+
+footer li
+{
+    display: inline;
+    color: white;
+    text-decoration: none;
+    border-left: 1px dotted #fff;
+}
+
+.nodot
+{
+    border-left: 0px;
+}
+
+footer p
+{
+    font-size: 0.9em;
+    padding-top: 15px 15px 0;
+}
