@@ -35,18 +35,43 @@ header
 
 .logo
 {
-    margin-left: 140px;
+    margin: 5px 0 0 140px;
+    padding-right: 0;
 }
 
+menu nav
+{
+    margin-top: 5px;
+}
+
+.picto
+{
+    margin-top: 14px;
+}
+
+.log
+{
+    margin-top: 1px;
+}
+
+.login
+{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+}
+
+/**LINKS**/
 li
 {
     display: inline;
     list-style: none;
+    margin-top: 0px;
 }
 
 a 
 {
-    padding: 5px 0 5px 30px;
+    padding-left: 25px;
     color: #fff;
     text-decoration: none;
 }
