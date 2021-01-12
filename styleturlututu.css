@@ -29,8 +29,13 @@ body
 header
 {   
     display: flex;
-
+    flex-direction: row;
     font-size: 0.9em;
+}
+
+.logo
+{
+    margin-left: 140px;
 }
 
 li
@@ -46,7 +51,7 @@ a
     text-decoration: none;
 }
 
-nav a:hover 
+a:hover 
 {
     background-color: #EEEEEE;
     color: black;
