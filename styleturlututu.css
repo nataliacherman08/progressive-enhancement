@@ -35,30 +35,12 @@ header
 
 .logo
 {
-    margin: 5px 0 0 140px;
-    padding-right: 0;
+    margin-left: 140px;
 }
 
 menu nav
 {
     margin-top: 5px;
-}
-
-.picto
-{
-    margin-top: 14px;
-}
-
-.log
-{
-    margin-top: 1px;
-}
-
-.login
-{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
 }
 
 /**LINKS**/
