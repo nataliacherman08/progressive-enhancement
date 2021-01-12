@@ -60,11 +60,37 @@ nav a:hover
     background-color: #0093c8;
     display: flex;
     flex-direction: row;
+    padding-bottom: 30px;
+}
+
+.deux
+{
+    margin-top: 0px;
+}
+
+.droite
+{
+    padding-top: 25px;
+    margin-left: 70px;
+}
+
+.gauche
+{
+    margin-left: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#banniere p
+{
+    font-size: 1.7em;
+    text-align: center;
 }
 
 
-/**BODY**/
-#body
+/**CONTENU**/
+#contenu
 {   
     display: flex;
     flex-wrap: wrap;
@@ -73,12 +99,12 @@ nav a:hover
     padding-bottom: 60px;
 }
 
-#body p
+#contenu p
 {
     color: #E4E4E4;
 }
 
-#body div
+#contenu div
 {
     padding-top: 30px;
     width: 40%;
@@ -89,10 +115,11 @@ nav a:hover
 {
     background-color: #FFF;
     padding-top: 5px;
-    padding-bottom: 5px;
+    padding-bottom: 20px;
+    height: 55px;
     color: #000;
     text-align: center;
-    font-size: 1.8em;
+    font-size: 1.7em;
     letter-spacing: -2px;
 }
 
@@ -176,9 +203,9 @@ nav a:hover
 .startbuildingnow
 {
     border: 1px solid #fff;
-    line-height: 2.5;
-    padding: 15px 32px;
+    padding: 20px 25px;
     font-size: 1.5em;
+    font-weight: bold;
     text-align: center;
     color: #fff;
     border-radius: 8px;
