@@ -10,5 +10,5 @@ The other one was to recreate the layout of one of the two proposed sites.
 I chose to redo the layout of the Turlututu site.
 
 ## Links
-[The Story of the Chinese Farmer](chinesefarmer/index.html)
-[Turlututu](turlututu/turlututuindex.html)
+*[The Story of the Chinese Farmer](chinesefarmer/index.html)
+*[Turlututu](turlututu/turlututuindex.html)
