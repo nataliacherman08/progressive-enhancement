@@ -13,5 +13,6 @@ I chose to redo the layout of the Turlututu site.
 * [The Story of the Chinese Farmer](chinesefarmer)
 * [Turlututu](turlututu)
 
-Hurray !
+### Hurray !
+
 ![Hurray](https://media.giphy.com/media/1iTJct5JuplfCwFO/giphy.gif)
