@@ -20,27 +20,61 @@ body
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    width: 105%;
     background: #333333;
     color: #fff;
     font-family: 'Source Sans Pro', Verdana, Tahoma, sans-serif;
 }
 
+
 /**MENU NAVIGATION**/
-header
-{   
-    display: flex;
-    flex-direction: row;
+nav
+{
     font-size: 0.9em;
+    height: 50px;
+}
+
+nav ul
+{
+    margin: 0px;
+    padding: 0px;
+    list-style-type:none;
+    font-size: 0.8em;
+}
+
+nav li
+{
+    display: inline;
+    float: left;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+nav a
+{
+    padding-left: 10px;
+    padding-top: 8px;
+    font-size: 1.3em;
 }
 
 .logo
 {
-    margin-left: 140px;
+    margin-left: 130px;
+
 }
 
-.clic
+.log
 {
-    margin-top: 5px;
+    padding-left: 500px;
+    padding-right: 0px;
+    margin-right: 0px;
+
+}
+
+.login
+{
+    margin-left: 0px;
+    padding-left: 0px;
 }
 
 /**LINKS**/
@@ -253,24 +287,9 @@ a:hover
 
 
 /**FOOTER**/
-#bottom
-{
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 10px;
-}
-
-footer nav
-{
-    display: inline;
-    font-size: 0.9em;
-}
-
 footer li
 {
-    display: inline;
     color: white;
-    text-decoration: none;
     border-left: 1px dotted #fff;
 }
 
@@ -279,8 +298,7 @@ footer li
     border-left: 0px;
 }
 
-footer p
+.copyright
 {
-    font-size: 0.9em;
-    padding-top: 15px 15px 0;
+    padding-left: 780px;
 }
